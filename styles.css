@@ -1,0 +1,63 @@
+/*General CSS selectors*/
+body {
+  font-size: 100%;
+  font-family: 'Tahoma', sans-serif;
+  color: #000000;
+  background-color:  #cce4ff;
+ }
+
+h1 {
+  font-size: 2.5em; /*36px*/
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #160f6f;
+}
+
+h2 {
+  font-size: 1.75em;
+  font-family: Arial, Helvetica, sans-serif, serif;
+  color: #332C33;
+}
+
+pre {
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 150%;
+}
+
+p {
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 150%;
+}
+
+ul {
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height:150%;
+}
+
+/*Columns*/
+.img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+  }
+
+/*Columns 3*/
+img {
+  width: 200px;
+  height: 300px;
+  object-fit: contain;
+}
+/*Columns 4*/
+.img_item{
+	width: 500px;
+}
